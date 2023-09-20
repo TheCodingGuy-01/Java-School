@@ -1,11 +1,5 @@
-String Hai = "Wat ";
-String Well = " ";
-String Oh = " lang ";
-String Hm = " ";
-String No = " zeg!";
+String Hi = "Wat";
+String Oh = "lang";
+String No = "zeg!";
 
-String bye;
-
-bye = Hai + " " + Well + " " + Oh + " " + Hm + " " + No;
-
-println(Hai + Well + Oh + Hm + No);
+println(Hi + " " + Oh + " " + No);
