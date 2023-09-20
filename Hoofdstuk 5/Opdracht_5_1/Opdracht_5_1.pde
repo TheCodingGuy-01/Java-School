@@ -1,9 +1,9 @@
-String OneWord = "Dit is een zin die ik kan gebruiken.";
-String SecondWord = " Dit is een tweede zin.";
-String ThirdWord = " Help lol";
-String FourthWord = " aaaa";
-String Fused;
+String One = "Dit is een zin die ik kan gebruiken...";
+String Second = "--wacht, wat was het ook alweer?";
+String Third = "...oh, Help lol---";
+String Fourth = "aaaa";
+String total = "";
 
-Fused = OneWord + SecondWord + " " + ThirdWord + FourthWord;
+total = One + " " + Second + " " + Third + " " + Fourth;
 
-println(OneWord + SecondWord + ThirdWord + FourthWord);
+println(total);
