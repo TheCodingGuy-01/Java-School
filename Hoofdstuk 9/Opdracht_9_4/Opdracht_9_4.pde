@@ -1,14 +1,13 @@
 void setup(){
   size(200,200);
-  background(255,255,255);
-  Evengetal(100, 100, 70, 70);
+  background(255);
+  cube(100, 100, 70, 70);
 }
 
-void Evengetal(int one, int two, int thr, int four){
-  int totaal = one + two + thr + four;
-  line(one,two,one,four);
-  line(one,thr,four,four);
-  line(one,one,four,one);
-  line(thr,four,thr,two);
+void cube(int x, int y, int w, int h){
+  line(x, y, x+w, y);
+  line(x, y+h, x+w, y+h);
+  line(x, y, x, y+h);
+  line(x+w, y, x+w, y+h);
 
 }
